@@ -50,6 +50,12 @@ assert(smallestCommonNumber([
 
 assert(smallestCommonNumber([
   [7,10,25,30,63,64],
+  [-1,4,5,6,7,8,10,50],
+  [1,10,14]]),
+10);
+
+assert(smallestCommonNumber([
+  [7,10,25,30,63,64],
   [-1,4,5,6,7,8,50],
   [1,6,10,14]]),
 -1);
