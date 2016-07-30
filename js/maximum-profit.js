@@ -87,3 +87,5 @@ assert(maximumProfit([8, 5, 12, 9, 19, 1]).toString(), '5,19');
 // min_buy = 1
 
 assert(maximumProfit([21, 12, 11, 9, 6, 3]).toString(), '12,11');
+assert(maximumProfit([-2, -3, 4, -1, -2, 1, 5, -3]).toString(), '-3,5');
+assert(maximumProfit([-2, -3, -1, -2, -7]).toString(), '-3,-1');
