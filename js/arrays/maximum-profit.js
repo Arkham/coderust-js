@@ -31,7 +31,7 @@ function maximumProfit(array) {
   return [bestBuy, (bestBuy + bestProfit)];
 }
 
-const { assert } = require('./helpers');
+const { assert } = require('../helpers');
 
 assert(maximumProfit([8, 5, 12, 9, 19, 1]).toString(), '5,19');
 

@@ -72,7 +72,7 @@ let maximumSlidingWindow = function(array, windowSize) {
   return results;
 };
 
-let { assert } = require('./helpers');
+let { assert } = require('../helpers');
 
 let testData = [-4, 2, -5, 3, 6, -1, -2, -66, -4, -55, 9];
 

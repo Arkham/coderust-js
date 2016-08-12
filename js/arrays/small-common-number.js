@@ -40,7 +40,7 @@ function smallestCommonNumber(arrays) {
   return getPointedValues()[0];
 }
 
-let { assert } = require('./helpers');
+let { assert } = require('../helpers');
 
 assert(smallestCommonNumber([
   [6,7,10,25,30,63,64],

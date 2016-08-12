@@ -47,7 +47,7 @@ function rotateArray(array, n) {
   return array;
 }
 
-let { assert } = require('./helpers');
+let { assert } = require('../helpers');
 
 assert(reverseArrayInPlace([1,2,3,4,5,6], 0, 0).toString(), '1,2,3,4,5,6');
 assert(reverseArrayInPlace([1,2,3,4,5,6], 0, 1).toString(), '2,1,3,4,5,6');

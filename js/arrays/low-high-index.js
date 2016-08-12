@@ -43,7 +43,7 @@ function highIndex(array, needle, start, end) {
   }
 }
 
-const { assert } = require('./helpers');
+const { assert } = require('../helpers');
 
 let data = [1, 2, 5, 5, 5, 5, 5, 5, 5, 5, 7];
 

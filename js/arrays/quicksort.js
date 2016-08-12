@@ -48,7 +48,7 @@ function swap(array, first, second) {
   [array[first], array[second]] = [array[second], array[first]];
 }
 
-const { assert } = require('./helpers');
+const { assert } = require('../helpers');
 
 assert(quicksort([55, 23, 26, 2, 25]).toString(), '2,23,25,26,55');
 assert(quicksort([5, 4, 3, 2, 1]).toString(), '1,2,3,4,5');

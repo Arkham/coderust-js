@@ -17,7 +17,7 @@ function moveZeroesLeft(array) {
   return array;
 }
 
-const { assert } = require('./helpers');
+const { assert } = require('../helpers');
 
 let data = [ 1, 10, 20, 0, 59, 63, 0, 88, 0 ];
 

@@ -27,7 +27,7 @@ let binarySearch = function(array, needle) {
   return _binarySearch(array, needle, 0, array.length - 1);
 };
 
-let { assert } = require('./helpers');
+let { assert } = require('../helpers');
 
 let testData = [1, 10, 20, 47, 59, 63, 75, 88, 99, 107, 120, 133, 155, 162,
   176, 188, 199, 200, 210, 222];

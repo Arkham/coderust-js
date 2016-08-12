@@ -39,7 +39,7 @@ function _rotatedArraySearch(array, needle, start, end) {
   }
 };
 
-let { assert } = require('./helpers');
+let { assert } = require('../helpers');
 
 let original = [1, 10, 20, 47, 59, 63, 75, 88, 99, 107, 120, 133, 155, 162, 176,
   188, 199, 200, 210, 222];
