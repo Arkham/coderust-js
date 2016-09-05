@@ -38,6 +38,16 @@ class LinkedList {
 
     return result.toString();
   }
+
+  length() {
+    let result = 0;
+
+    this.visit(function() {
+      result += 1;
+    });
+
+    return result;
+  }
 }
 
 module.exports.LinkedList = LinkedList;
